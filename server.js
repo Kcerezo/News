@@ -6,7 +6,7 @@ var mongoose = require("mongoose");
 var axios = require("axios");
 var cheerio = require("cheerio");
 
-var db = require("./models");
+var db = require("./Models");
 
 var PORT = process.env.PORT || 3000;
 
